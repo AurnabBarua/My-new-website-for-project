@@ -80,6 +80,7 @@
               $address=$row['Address'];
               $picture=$row['Picture'];
               $password=$row['password'];
+              $id=$row['Id'];
 
 // echo $picture;
             }

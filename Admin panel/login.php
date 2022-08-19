@@ -8,7 +8,14 @@
 
     <link rel="stylesheet" href="../css/admin.css">
     <link rel="stylesheet" href="../css/style.css">
-
+<style media="screen">
+  *{
+    background-image: url(../images/bg/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+</style>
   </head>
   <body>
 <div class="login w-50">
@@ -28,13 +35,13 @@
   <form class="" method="post">
     <div class="row g-3 align-items-center">
       <div class="col-md-2">
-        <label for="username" class="col-form-label">User Name</label>
+        <label for="username" class="col-form-label"><b>User Name</b></label>
       </div>
       <div class="col-md-10">
         <input type="text" name="username" class="form-control" placeholder="Enter your username">
       </div>
       <div class="col-md-2">
-        <label for="password" class="col-form-label">Password</label>
+        <label for="password" class="col-form-label"><b>Password</b></label>
       </div>
       <div class="col-md-10">
         <input type="password" name="password" class="form-control" placeholder="Enter your password">

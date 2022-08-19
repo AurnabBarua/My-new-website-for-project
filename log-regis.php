@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- <style media="screen">
+      *{
+        background-image: url(images/bg/background_login.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+    </style> -->
   </head>
   <body>
 <div class="login w-50">

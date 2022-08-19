@@ -1,9 +1,11 @@
 <?php include 'header.php'; ?>
+<?php ob_start(); ?>
     <div class="main-content">
     <div class="wrapper">
       <h1 class="col-4">Update Food</h1>
 
       <?php
+
       if(isset($_GET['id'])){
       $id=$_GET['id'];
       include 'connect_database.php';
@@ -114,6 +116,7 @@
           if($upload == false){
             $_SESSION['upload'] = "Failed to upload image";
             header('location: food.php');
+              ob_end_flush();
             die();
           }
           if($current_image!=""){
@@ -144,12 +147,12 @@
             $_SESSION['update']="Food updated successfully";
             // echo "successfully Updated";
             header("location: food.php");
-
+  ob_end_flush();
           }
           else {
             // echo "Failed";
             $_SESSION['update']="Failed to update";
-            header("location: food.php");
+            // header("location: food.php");
           }
       // header('location: Food.php');
       }
