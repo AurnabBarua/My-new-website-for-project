@@ -29,7 +29,7 @@
           <th>Id</th>
           <th>Full Name</th>
           <th>User name</th>
-          <th>Actions</th>
+          <th class="col-md-4">Actions</th>
         </tr>
 
         <?php

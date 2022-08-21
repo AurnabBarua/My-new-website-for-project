@@ -39,7 +39,7 @@
           <th>Total</th>
           <th>Date</th>
           <th>Status</th>
-          <th>Actions</th>
+          <th style="width: 12%;">Actions</th>
         </tr>
 
         <?php

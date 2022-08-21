@@ -8,7 +8,7 @@
       <img src="images/account_pic/<?php echo $picture; ?>" class="img-fluid" style="border-radius: 0.925rem;">
     </div>
     <div class="col col-md-6">
-      <div class="row pb-4 pt-5">
+      <div class="row pb-4 pt-3">
         <div class="col col-md-6">
           <b>Name</b>
         </div>
@@ -44,8 +44,29 @@
         </div>
 
       </div>
+      <hr>
+      <h3>Latest Ordered Food</h3>
+      <hr>
+      <div class="row pb-4">
+        <div class="col col-md-6">
+          <b>Food</b>
+        </div>
+        <div class="col col-md-6">
+          <?php echo $_SESSION['Food_name']; ?>
+        </div>
+
+      </div>
+      <div class="row pb-4">
+        <div class="col col-md-6">
+          <b>Total Price</b>
+        </div>
+        <div class="col col-md-6">
+          ৳<?php echo $_SESSION['total_price']; ?>
+        </div>
+
+      </div>
       <div class="row w-50 m-auto pt-4 pb-2">
-      <a href="edit_profile.php"><button type="button" name="button" class="main-btn">Edit</button></a>
+      <a href="edit_profile.php"><button type="button" name="button" class="main-btn px-5">Edit Profile</button></a>
 
       </div>
 

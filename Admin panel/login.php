@@ -8,14 +8,14 @@
 
     <link rel="stylesheet" href="../css/admin.css">
     <link rel="stylesheet" href="../css/style.css">
-<style media="screen">
+<!-- <style media="screen">
   *{
     background-image: url(../images/bg/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
-</style>
+</style> -->
   </head>
   <body>
 <div class="login w-50">

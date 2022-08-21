@@ -6,6 +6,7 @@
     <br><br>
 
     <?php
+    ob_start();
     if(isset($_GET['id'])){
       $id = $_GET['id'];
       include 'connect_database.php';
@@ -25,6 +26,7 @@
           header('location: order.php');
 
         }
+
       }
 
     }
@@ -93,6 +95,7 @@
       if($res2==true){
         $_SESSION['update']="Order updated succesfully";
         header('location: order.php');
+        ob_end_flush();
       }
       else {
         $_SESSION['update']="Failed to update order";

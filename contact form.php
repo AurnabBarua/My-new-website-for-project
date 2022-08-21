@@ -9,22 +9,22 @@
               <div class="icon pe-2"><i class="bi bi-geo-alt"></i></div>
               <div class="text">
                 <h3>Address</h3>
-                <p class="text-dark">Mada Center 8th floor, 379 Hudson</p>
-                <p class="text-dark">St.New York,NY 10018 US</p>
+                <p class="text-dark">AB Food Online Shop</p>
+                <p class="text-dark">504, Gulshan, Dhaka</p>
               </div>
             </div>
             <div class="box position-relative d-flex mb-3">
               <div class="icon pe-2"><i class="bi bi-telephone"></i></div>
               <div class="text">
                 <h3>Lets Talk</h3>
-                <p class="text-dark">+1 800 1236879</p>
+                <p class="text-dark">01419855746</p>
               </div>
             </div>
             <div class="box position-relative d-flex">
               <div class="icon pe-2"><i class="bi bi-envelope"></i></div>
               <div class="text">
                 <h3>General Support</h3>
-                <p class="text-dark">contact@example.com</p>
+                <p class="text-dark">abonlineshop@gmail.com</p>
               </div>
             </div>
 

@@ -87,14 +87,21 @@
       $res2 = mysqli_query($link, $sql2);
       if($res2 ==true){
         $_SESSION['order']="Food ordered succesfully";
+        $_SESSION['Food_name']=$food;
+        $_SESSION['total_price']=$total;
         header('location: Explore Food.php');
       }
       else {
         $_SESSION['order']="Failed to order food";
         header('location: orderlist.php');
       }
+      ?>
+      <!-- <p class="text-center"><b>Thanks for ordering our food. We will deliver it to your home very soon. Your total price is <span class="text-success">৳<?php echo $total; ?></span>.
+      You'll pay it after receiving the food.</b> </p> -->
+      <?php
     }
 
      ?>
+
 
 <?php include('footer.php'); ?>

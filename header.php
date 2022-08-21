@@ -50,6 +50,7 @@
             error_reporting(E_ERROR | E_PARSE);
 
             session_start();
+            ob_start();
 
             if(isset($_SESSION['useremail'])){
               $useremail = $_SESSION['useremail'];
@@ -57,7 +58,8 @@
               <?php
             }
             else {
-              ?><a class="nav-link" href="log-regis.php">Login</a>
+              ?>
+              <a class="nav-link" href="log-regis.php">Login</a>
               <?php
               $useremail="";
             }
@@ -81,7 +83,7 @@
               $address=$row['Address'];
               $picture=$row['Picture'];
               $password=$row['password'];
-
+              $id=$row['Id'];
 // echo $picture;
             }
             else {
@@ -96,9 +98,18 @@
 
           ?>
           <li class="nav-item">
-          <a href="profile.php"><img src="images/account_pic/<?php echo $picture; ?>" width="40px"></a>
-          </li>
+            <?php
+            if($picture=='user.png'){
+            ?>  <img src="images/account_pic/<?php echo $picture; ?>" width="40px">
+            <?php
+            }
+            else {
+            ?>  <a href="profile.php"><img src="images/account_pic/<?php echo $picture; ?>" width="40px"></a>
+            <?php
+            }
 
+             ?>
+          </li>
 
 
           <!-- <li><button class="main-btn">1200 345 123</button></li> -->

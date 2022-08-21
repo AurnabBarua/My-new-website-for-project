@@ -16,11 +16,11 @@
         <div class="row">
           <div class="col-lg-5 col-md-6">
             <h1>Good food choices are good investments.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.
+            <p>You can easily select our food as your first choice as we made our food with a clean environment.
             </p>
             <div class="mt-4">
-              <button class="main-btn">Order now <i class="fas fa-shopping-basket ps-3"></i></button>
-              <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order now <i class="fas fa-angle-right ps-3"></i></button>
+            <a href="Explore Food.php"><button class="main-btn">Order now <i class="fas fa-shopping-basket ps-3"></i></button></a>
+              <!-- <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order now <i class="fas fa-angle-right ps-3"></i></button> -->
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
               <p>Student of Aust, CSE Department <br> ID: 190204004</p>
 
             </ol>
-              <button class="main-btn mt-4">Learn More</button>
+              <!-- <button class="main-btn mt-4">Learn More</button> -->
            </div>
          </div>
        </div>
@@ -91,15 +91,13 @@
          <div class="row align-items-center">
            <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
             <h2>We make everything by hand with the best possible ingredients.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
-              amet leo. Mauris feugiat erat tellus.Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.</p>
+            <p>We believe that, healthy food is necessary for our health. So, we try our best to make healthy food. We have-</p>
             <ul class="list-unstyled py-3">
-              <li>Etiam sed dolor ac diam volutpat.</li>
-              <li>Erat volutpat aliquet imperdiet.</li>
-              <li>purus a odio finibus bibendum.</li>
+              <li>Breakfast items</li>
+              <li>Lunch items</li>
+              <li>Dinner items</li>
             </ul>
-            <button class="main-btn mt-4">Learn More</button>
+            <!-- <button class="main-btn mt-4">Learn More</button> -->
            </div>
            <div class="col-lg-7 col-md-12">
              <div class="card border-0">
@@ -120,9 +118,8 @@
              <div class="text-content">
               <h2>When a man's stomach is full it makes no
                 difference whether he is rich or poor.</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
-                finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
-                <button class="main-btn mt-3">Read More</button>
+              <p>Taking healthy food, you can fulfill your stomach. We are always ready to serve you.</p>
+                <!-- <button class="main-btn mt-3">Read More</button> -->
              </div>
            </div>
          </div>
@@ -153,25 +150,22 @@
                 <div class="carousel-item active">
                   <div class="carousel-caption">
                     <img src="images/review/review-1.jpg">
-                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts. "</p>
-                    <h5>Johnthan Doe - UX Designer</h5>
+                    <p>"I have taken food from many shop. But, this shop is unique and the foods are very delicious. "</p>
+                    <h5>Kamrul Rahman - UX Designer</h5>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-caption">
                     <img src="images/review/review-2.jpg">
-                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts. "</p>
-                    <h5>Maccy Doe - Front End</h5>
+                    <p>"There are many unique food items here and the foods are very delicious. "</p>
+                    <h5>Maisha Islam - Doctor</h5>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-caption">
-                    <img src="images/review/review-1.jpg">
-                    <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                      live the blind texts. "</p>
-                    <h5>Johnthan Doe - UX Designer</h5>
+                    <img src="images/review/review-3.jpg">
+                    <p>"I have taken food from this shop and the food was awesome. "</p>
+                    <h5>Hasan Rahman - Civil Engineer</h5>
                   </div>
                 </div>
               </div>
@@ -182,6 +176,20 @@
      </div>
    </section>
 
+   <section id="book-food">
+     <div class="book-food">
+       <div class="container book-food-text">
+         <div class="row text-center">
+           <div class="col-lg-9 col-md-12">
+            <h2>Baked fresh daily by bakers with passion.</h2>
+           </div>
+           <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+             <!-- <button class="main-btn">Learn more</button> -->
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
   <!-- section-6 faq-->
    <section id="faq">
      <div class="faq wrapper">
@@ -195,27 +203,24 @@
          </div>
          <div class="row pt-5">
            <div class="col-sm-6 mb-4">
-            <h4><span>~</span>Is Foodies Bread really baked fresh each day?</h4>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            <h4><span>~</span>Is AB Food Online shop's Bread really baked fresh each day?</h4>
+            <p>Yes, Sir/Madam. We make our bread n a fresh environment and try our best to keep our bread fresh.
             </p>
            </div>
            <div class="col-sm-6 mb-4">
-            <h4><span>~</span>Do you bake breads containing animal fats or products?</h4>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            <h4><span>~</span>Do you use any animal fats or products to make food?</h4>
+            <p>No, Sir/Madam. We don't use any animal fat or products. Our foods are pure natural.
             </p>
            </div>
            <div class="col-sm-6 mb-4">
             <h4><span>~</span>Can I order your products online?</h4>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            <p>Yes, Sir/Madam. You can use this website to order food in online. We will deliver it at your home.
             </p>
            </div>
            <div class="col-sm-6 mb-4">
             <h4><span>~</span>When are you opening a shop near me?</h4>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            <p>Our shop is located at Gulshan. We don't create any branch to our shop. If your home is far from us, you can order food in online.
+              We will deliver it at your home.
             </p>
            </div>
          </div>
@@ -224,23 +229,10 @@
    </section>
 
   <!-- section-7 book-food-->
-   <section id="book-food">
-     <div class="book-food">
-       <div class="container book-food-text">
-         <div class="row text-center">
-           <div class="col-lg-9 col-md-12">
-            <h2>Baked fresh daily by bakers with passion.</h2>
-           </div>
-           <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
-             <button class="main-btn">Learn more</button>
-           </div>
-         </div>
-       </div>
-     </div>
-   </section>
+
 
   <!-- section-8 newslettar-->
-   <section id="newslettar">
+   <!-- <section id="newslettar">
      <div class="newslettar wrapper">
        <div class="container">
          <div class="row">
@@ -264,7 +256,7 @@
          </div>
        </div>
      </div>
-   </section>
+   </section> -->
 
   <!-- section-9 footer-->
   <?php include('footer.php'); ?>
